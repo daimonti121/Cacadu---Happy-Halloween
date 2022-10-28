@@ -326,6 +326,9 @@ h1 {
       height: auto;
       margin: 35px auto 0px;
       border-radius: 6px; }
+      @media (max-width: 979px) {
+        .win__baner img {
+          width: 100%; } }
       @media (max-width: 600px) {
         .win__baner img {
           margin: 0 auto; } }
